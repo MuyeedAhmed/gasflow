@@ -166,7 +166,6 @@ public class ColorPreference extends Preference {
 			tryBindLists();
 		}
 
-		@SuppressLint("InflateParams")
 		@Override
 		public Dialog onCreateDialog(Bundle savedInstanceState) {
 			LayoutInflater layoutInflater = LayoutInflater.from(getActivity());

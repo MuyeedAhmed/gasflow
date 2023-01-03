@@ -308,7 +308,6 @@ public class TrafficService extends Service {
         /**
          * Simple constructor to initialize the initial value of the previous
          */
-        @SuppressLint("CommitPrefEdits")
         public NotificationHandler(Context ctxContext) {
             this.ctxContext = ctxContext;
         }

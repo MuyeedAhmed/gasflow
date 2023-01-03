@@ -18,7 +18,6 @@ public class PowerReceiver extends BroadcastReceiver {
     /**
      * Receiver method for the phone boot that starts the traffic monitoring service
      */
-    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     @Override
     public void onReceive(Context appContext, Intent bootIntent) {
         Log.v("BatteryReceiver", "Received a power intent");
